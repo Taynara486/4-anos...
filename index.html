@@ -100,3 +100,28 @@
   </script>
 </body>
 </html>
+
+
+
+<!-- Começo da adição do presente -->
+<button id="botaoPresente">Não poderia faltar o presente</button>
+
+<div id="buque">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Blue_Orchid_2.jpg/640px-Blue_Orchid_2.jpg" alt="Buquê de Orquídeas Azuis">
+</div>
+
+<div id="cartao">Eu te amo!</div>
+
+<script>
+  const botao = document.getElementById('botaoPresente');
+  const buque = document.getElementById('buque');
+  const cartao = document.getElementById('cartao');
+
+  botao.addEventListener('click', () => {
+    buque.style.display = 'block';
+    cartao.style.display = 'block';
+  });
+</script>
+<!-- Fim da adição do presente -->
+
+</body>
